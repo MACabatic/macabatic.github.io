@@ -1,0 +1,100 @@
+/* Resetting default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Profile container styling */
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #F0F8FF; /* Light blue background */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #0073e6; /* Blue links */
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #e0f7ff; /* Light blue hover effect */
+}
+
+/* About Me section styling */
+.about-me-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular shape */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Section headers */
+.section h3 {
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styling lists */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Contact section styling */
+.contact p {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #0073e6;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+/* Justify text alignment for paragraphs */
+p {
+    text-align: justify;
+}

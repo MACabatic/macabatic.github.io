@@ -1,0 +1,70 @@
+/* Set the background color of the body */
+body {
+    background-color: #E0F7FA; /* Sky blue color */
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the resume container */
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFFFFF; /* White background for contrast */
+}
+
+/* Header styling */
+.header-content {
+    display: flex;
+    align-items: center;
+    background-color: #E0F7FA; /* Sky blue background */
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styling for the profile image */
+.profile-image {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    border-radius: 50%; /* Circular shape */
+    margin-right: 20px; /* Margin between image and text */
+}
+
+/* Styling for the contact info */
+.contact-info h1 {
+    margin: 0;
+    color: #00796B; /* Darker shade of blue */
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #00796B; /* Darker shade of blue */
+}
+
+/* Section headers */
+h2 {
+    color: #00796B; /* Darker shade of blue */
+    border-bottom: 1px solid #00796B;
+    padding-bottom: 5px;
+}
+
+/* Entry styling */
+.entry {
+    margin-bottom: 15px;
+}
+
+/* Styling for unordered lists */
+ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc; /* Use bullet points */
+}
+
+/* Styling for list items */
+li {
+    margin-bottom: 5px;
+    color: #00796B; /* Darker shade of blue */
+}
+
+/* Style for the profile image */
